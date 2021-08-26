@@ -22,7 +22,7 @@
 
 /*Color de fondo*/
 body {
-    background-image: url(multimedia/GranosDeCafe.jpg);
+    background-image: url(multimedia/fondo-cafe.png);
     width: 100%; 
 }
 
@@ -62,8 +62,7 @@ footer {
     padding: 100px 0px 0px 0px;
 }
 
-footer h3 {
-    color: #E5EAF5;
+footer h3 {#361311;
     letter-spacing: 1px;
     font-size: 20px;
     display: flex;
@@ -81,7 +80,7 @@ footer ul {
 
 
 .SofiaSummo {
-    color: #E5EAF5;
+    color: #361311;
     float: right;
     position: relative;
     bottom: 10px;
@@ -89,7 +88,7 @@ footer ul {
 }
 
 .volver-arriba {
-    background-color: white;
+    background-color: #361311;
     border-radius: 50%;
     padding: 10px;
     position: fixed;
@@ -122,6 +121,10 @@ footer ul {
     justify-content: center;
     align-content: center;
     margin-top: 50px;
+}
+
+.iconos {
+    display: flexbox;
 }
 
 .ListaProductosPrecios {
