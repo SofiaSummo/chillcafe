@@ -1,0 +1,186 @@
+/*FUENTES*/
+@font-face {
+    font-family: 'metropolisRegular';
+    src: url(multimedia/Metropolis-Regular.otf);
+}
+
+@font-face {
+    font-family: 'metropolisBold';
+    src: url(multimedia/Metropolis-Bold.otf);
+}
+
+@font-face {
+    font-family: 'metropolisLight';
+    src: url(multimedia/Metropolis-Light.otf);
+}
+
+/*Estilos por default*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Color de fondo*/
+body {
+    background-image: url(multimedia/GranosDeCafe.jpg);
+    width: 100%; 
+}
+
+
+/*HEADER*/
+
+.navbar-elem-style {
+    font-family: 'metropolisBold';
+    top: 0;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navbar-link-style:hover {
+    transform: scale(1);
+}
+
+.navbar-link-style:active {
+    color: rgb(189, 189, 189);
+
+}
+
+.chill-logo {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* Carousel */
+.carousel-style {
+    margin-top: 80px;
+}
+
+
+/* Footer */
+footer {
+    font-family: 'metropolisBold';
+    padding: 100px 0px 0px 0px;
+}
+
+footer h3 {
+    color: #E5EAF5;
+    letter-spacing: 1px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+.rrss-iconos li {
+    padding: 0px 15px;
+}
+
+
+.SofiaSummo {
+    color: #E5EAF5;
+    float: right;
+    position: relative;
+    bottom: 10px;
+    right: 30px;
+}
+
+.volver-arriba {
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+
+/*INDEX*/
+
+/*Menu de comidas*/
+
+.seccionAlimentos {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+.titulos {
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 30px;
+    font-family: 'metropolisBold';
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.ListaProductosPrecios {
+    color: #232323;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.prodTitulo {
+    font-family: 'metropolisRegular';
+    font-size: 20px;
+    padding: 8px;
+}
+
+.prodPrecio {
+    font-family: 'metropolisRegular';
+    font-size: 16px;
+    padding: 0px 0px 10px 0px;
+}
+
+
+/*FIN INDEX*/
+
+
+/*RESERVAS*/
+
+.imagen-header{
+    padding-top: 50px;
+    width: 100%;
+}
+
+.texto-reserva {
+    padding-top: 10px;
+    color: #E5EAF5;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    font-family: 'metropolisBold';
+    font-size: 22px;
+}
+
+.input-group {
+    font-family: 'metropolisRegular';
+    width: 75%;
+    margin: auto;
+}
+a .modal-style {
+    font-family: 'metropolisRegular';
+    display: flex;
+    justify-content: center;
+}
+
+.aclaracion-reserva {
+    color: #E5EAF5;
+    text-align: center;
+    font-family: 'metropolisLight';
+    font-size: 15px;
+}
+
+
+
+/*FIN RESERVAS*/
