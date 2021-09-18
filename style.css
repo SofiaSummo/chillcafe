@@ -52,7 +52,7 @@ body {
 
 /* Carousel */
 .carousel-style {
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 
@@ -87,15 +87,6 @@ footer ul {
     right: 30px;
 }
 
-.volver-arriba {
-    background-color: #361311;
-    border-radius: 50%;
-    padding: 10px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-
 
 
 /*INDEX*/
@@ -107,7 +98,6 @@ footer ul {
     width: 70%;
     margin: auto;
     border-radius: 20px;
-
 }
 
 .titulos {
@@ -124,7 +114,7 @@ footer ul {
 }
 
 .iconos {
-    display: flexbox;
+    padding: 30px 0px 0px 0px;
 }
 
 .ListaProductosPrecios {
@@ -142,7 +132,7 @@ footer ul {
 .prodPrecio {
     font-family: 'metropolisRegular';
     font-size: 16px;
-    padding: 0px 0px 10px 0px;
+    
 }
 
 
@@ -158,7 +148,7 @@ footer ul {
 
 .texto-reserva {
     padding-top: 10px;
-    color: #E5EAF5;
+    color: #232323;
     text-align: center;
     flex-wrap: wrap;
     margin-top: 1%;
@@ -178,7 +168,7 @@ a .modal-style {
 }
 
 .aclaracion-reserva {
-    color: #E5EAF5;
+    color: ##232323;
     text-align: center;
     font-family: 'metropolisLight';
     font-size: 15px;
